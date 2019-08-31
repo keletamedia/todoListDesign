@@ -35,6 +35,9 @@ function add_new_todo () {
     todoParent.appendChild(new_todo_list);
     // empty input 
     document.getElementById('new_todo_input').value = "";
+
+    //update counter 
+    number_Of_todos++;
     return false;
 }
 
