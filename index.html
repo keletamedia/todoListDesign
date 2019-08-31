@@ -2,9 +2,55 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Todo-List Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+
   </head>
   <body>
-  
+    <div class="container">
+      <section class="todo_app">
+        <div class="col-6">
+          <ul class="header">
+            <li class="logo-letter">T</li>
+            <li class="logo-letter">O</li>
+            <li class="logo-letter">D</li>
+            <li class="logo-letter">O</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <div class="box">
+            <ul class="list-group" id="list">
+              <li class="list-group-item" id="list-item-1" onclick="strikeContent('1')">
+                <a href="#" class="item-button" id="1"> Post on
+                  LinkedIn </a>
+              </li>
+              <li class="list-group-item" id="list-item-2" onclick="strikeContent('2')">
+                <a href="#" class="item-button" id="2"> Help Devin </a>
+              </li>
+              <li class="list-group-item" id="list-item-3" onclick="strikeContent('3')">
+                <a href="#" class="item-button" id="3"> Phone call with Akeem </a>
+              </li>
+              <li class="list-group-item" id="list-item-4" onclick="strikeContent('4')">
+                <a href="#" class="item-button" id="4"> KeletaMedia Sites </a>
+              </li>
+            </ul>
+            <ul class="list-group" id="something"></ul>
+              <li class="list-group-item" id="add_new_todo">
+                <input type="text" class="form-control" id="new_todo_input" placeholder="New Todo">
+                <button class="btn btn-primary add_button" onclick="add_new_todo()">Add </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

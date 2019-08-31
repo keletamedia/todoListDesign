@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f9fa !important;
+}
+
+.col-6 {
+    margin: auto;
+    border: 1px solid gainsboro;
+    border-radius: .3em;
+    padding: 2em !important;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1) !important;
+    background-color: #f8f9fa;
+}
+
+.col-6:first-child {
+    background-color: white;
+}
+
+.header {
+    padding: 0;
+    color: gray;
+    text-align: center;
+    margin: 0;
+}
+
+.logo-letter {
+    padding: 0 1em;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2em;
+}
+
+
+
+section.todo_app {
+    padding: 8em 2em;
+}
+
+
+#new_todo_input {
+    box-shadow: none !important;
+    width: 85% !important;
+    display: inline !important;
+
+}
+
+.add_button {
+    display: inline;
+    vertical-align: top !important;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: background-color .3s ease-out;
+}
+
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+#add_new_todo:hover {
+    background-color: white;
+}
+
+.item-button {
+    color: black;
+    letter-spacing: .05em;
+    font-weight: 100;
+    word-spacing: .2em;
+}
+
+.item-button:hover {
+    text-decoration: none;
+    color: gray;
+}
