@@ -1,22 +1,5 @@
 var number_Of_todos = 4;
-
-const node = document.getElementsByClassName(".new_todo_input")[ 0 ];
-node.addEventListener("keyup", function (event) {
-    if (event.key === "Enter") {
-        // Do work
-        alert('hello');
-    }
-});
-
-
-document.getElementById("new_todo_input")
-    .addEventListener("keyup", function (event) {
-        event.preventDefault();
-        if (event.keyCode === 13) {
-            alert("hello");
-        }
-    });
-
+// strike each todo when completed 
 function strikeContent (element_id) {
     var element = document.getElementById(element_id);
     var elementParent = document.getElementById("list-item-" + element_id);
@@ -27,8 +10,7 @@ function strikeContent (element_id) {
     element.style.color = "gray";
     return false;
 }
-
-
+// adding a new todo
 function add_new_todo () {
     var newNumberOfTodo = number_Of_todos + 1;
     var todoParent = document.getElementById('list');
@@ -54,6 +36,5 @@ function add_new_todo () {
     // empty input 
     document.getElementById('new_todo_input').value = "";
     return false;
-
 }
 
