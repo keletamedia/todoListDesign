@@ -8,6 +8,15 @@ node.addEventListener("keyup", function (event) {
     }
 });
 
+
+document.getElementById("new_todo_input")
+    .addEventListener("keyup", function (event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            alert("hello");
+        }
+    });
+
 function strikeContent (element_id) {
     var element = document.getElementById(element_id);
     var elementParent = document.getElementById("list-item-" + element_id);
@@ -42,6 +51,9 @@ function add_new_todo () {
     new_todo_list.appendChild(new_todo_button);
     // append list to group
     todoParent.appendChild(new_todo_list);
+    // empty input 
+    document.getElementById('new_todo_input').value = "";
     return false;
 
 }
+
