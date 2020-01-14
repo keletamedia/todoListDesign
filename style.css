@@ -89,8 +89,9 @@ section.todo_app {
 
 .item-button {
     color: black;
+    opacity: .9;
     letter-spacing: .05em;
-    font-weight: 100;
+    font-weight: 300;
     word-spacing: .2em;
 }
 
