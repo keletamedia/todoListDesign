@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 239, 242)!important;
+    background-color: rgb(236, 239, 242) !important;
     padding: 3em 0;
 }
 
@@ -24,11 +24,11 @@ img {
     background-color: #f8f9fa;
 }
 
-.col-6:first-child {
+.col-7:first-child {
     background-color: white;
 }
 
-.col-6 {
+.col-7 {
     background-color: transparent;   
 }
 
@@ -74,7 +74,7 @@ section.todo_app {
 
 
 .list-group-item:hover {
-    background-color: rgb(236, 239, 242)!important;
+    background-color: rgb(236, 239, 242) !important;
 }
 
 #add_new_todo {
