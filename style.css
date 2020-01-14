@@ -75,6 +75,7 @@ section.todo_app {
 
 .list-group-item:hover {
     background-color: rgb(236, 239, 242) !important;
+    border-left: 1px solid;
 }
 
 
@@ -85,6 +86,7 @@ section.todo_app {
 
 #add_new_todo:hover {
     background-color: white !important;
+    border: 0;
 }
 
 .item-button {
