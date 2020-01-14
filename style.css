@@ -28,7 +28,7 @@ img {
     background-color: white;
 }
 
-.col-7 {
+.col-7:last-child {
     background-color: transparent;   
 }
 
