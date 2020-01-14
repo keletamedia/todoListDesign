@@ -86,7 +86,7 @@ section.todo_app {
 
 #add_new_todo:hover {
     background-color: white !important;
-    border: 0;
+    border: 1px solid rgba(0,0,0,.125);
 }
 
 .item-button {
