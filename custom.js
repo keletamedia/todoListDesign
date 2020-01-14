@@ -6,7 +6,7 @@ function strikeContent (element_id) {
     var itemContent = element.innerHTML;
     var newItemContent = itemContent.strike();
     element.innerHTML = newItemContent;
-    elementParent.style.backgroundColor = "#f8f9fa";
+    elementParent.style.backgroundColor = "#eceff3";
     element.style.color = "gray";
     return false;
 }
