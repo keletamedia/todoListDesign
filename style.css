@@ -77,12 +77,14 @@ section.todo_app {
     background-color: rgb(236, 239, 242) !important;
 }
 
+
+
 #add_new_todo {
     border-top: 0;
 }
 
 #add_new_todo:hover {
-    background-color: white;
+    background-color: white !important;
 }
 
 .item-button {
