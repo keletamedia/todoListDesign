@@ -1,8 +1,10 @@
 body {
-    background-color: #f8f9fa !important;
+    background-color: rgb(236, 239, 242)!important;
+    padding: 3em 0;
 }
 
 .logo {
+    display: none;
     text-align: center;
     margin: 3em 0;
 }
@@ -13,7 +15,7 @@ img {
 
 }
 
-.col-6 {
+.col-8 {
     margin: auto;
     border: 1px solid gainsboro;
     border-radius: .3em;
@@ -24,6 +26,10 @@ img {
 
 .col-6:first-child {
     background-color: white;
+}
+
+.col-6 {
+    background-color: transparent;   
 }
 
 .header {
@@ -55,6 +61,8 @@ section.todo_app {
 }
 
 .add_button {
+    float: right;
+    padding: .4em .9em;
     display: inline;
     vertical-align: top !important;
 }
@@ -66,7 +74,7 @@ section.todo_app {
 
 
 .list-group-item:hover {
-    background-color: #f8f9fa;
+    background-color: rgb(236, 239, 242)!important;
 }
 
 #add_new_todo {
