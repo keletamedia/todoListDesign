@@ -79,11 +79,6 @@ section.todo_app {
 }
 
 
-
-#add_new_todo {
-    border-top: 0;
-}
-
 #add_new_todo:hover {
     background-color: white !important;
     border: 1px solid rgba(0,0,0,.125);
