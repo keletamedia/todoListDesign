@@ -1,4 +1,4 @@
-var number_Of_todos = 4;
+var number_Of_todos = 0;
 // strike each todo when completed 
 function strikeContent (element_id) {
     var element = document.getElementById(element_id);
