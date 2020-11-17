@@ -66,6 +66,7 @@ section.todo_app {
     display: inline;
     vertical-align: top !important;
     border-radius: 2em !important;
+    background-color: #3A509E !important;
 }
 
 .list-group {
