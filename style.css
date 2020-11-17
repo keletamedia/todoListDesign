@@ -65,11 +65,11 @@ section.todo_app {
     padding: .4em .9em;
     display: inline;
     vertical-align: top !important;
-    border-radius: 2em;
+    border-radius: 2em !important;
 }
 
 .list-group {
-    margin-bottom: 1.5em !important;
+    margin-bottom: 1em !important;
 }
 
 .list-group-item {
