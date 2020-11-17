@@ -17,6 +17,7 @@ img {
 
 .col-7 {
     margin: auto;
+    border-radius: 2em;
     border: 1px solid gainsboro;
     border-radius: .3em;
     padding: 2em !important;
@@ -57,7 +58,7 @@ section.todo_app {
     box-shadow: none !important;
     width: 85% !important;
     display: inline !important;
-
+    border-radius: 1em;
 }
 
 .add_button {
@@ -65,17 +66,32 @@ section.todo_app {
     padding: .4em .9em;
     display: inline;
     vertical-align: top !important;
+    border-radius: 2em;
 }
 
 .list-group-item {
     cursor: pointer;
     transition: background-color .3s ease-out;
+    margin-bottom: .5em;
+    border-radius: 1em;
+}
+
+.list-group-item:first-child {
+   border-radius: 1em;
+}
+
+.list-group-item:last-child {
+   border-radius: 1em;   
 }
 
 
 .list-group-item:hover {
     background-color: rgb(236, 239, 242) !important;
     border-left: 1px solid slategray;
+}
+
+#add_new_todo {
+    padding: 2em;
 }
 
 
