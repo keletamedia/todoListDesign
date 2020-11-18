@@ -20,7 +20,7 @@ img {
     border-radius: 2em;
     border: 1px solid gainsboro;
     padding: 2em !important;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.1) !important;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1) !important;
     background-color: #f8f9fa;
 }
 
