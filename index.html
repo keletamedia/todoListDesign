@@ -9,9 +9,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="keletamedia_logo.png"/>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.js"
-      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
     <script src="custom.js"></script>
 
   </head>
@@ -33,10 +31,10 @@
           <div class="box">
             <ul class="list-group" id="list">
             </ul>
-            <ul class="list-group" id="something"></ul>
+            <ul class="list-group" id="new-todo-group"></ul>
               <li class="list-group-item" id="add_new_todo">
                 <input type="text" class="form-control" id="new_todo_input" placeholder="New Todo" autofocus>
-                <button class="btn btn-primary add_button" onclick="add_new_todo()">Add </button>
+                <button class="btn btn-primary add_button" id="add_new_todo_btn">Add </button>
               </li>
             </ul>
           </div>

@@ -1,8 +1,17 @@
 {
-    "name": "MyChromeExtension",
+    "name": "TODO",
     "version": "1.0",
     "chrome_url_overrides": {
         "newtab": "index.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://*/*"],
+          "js": ["custom.js"]
+        }
+    ],
+    "icons": { 
+       "128": "keletamedia_logo_1.png" 
     },
     "manifest_version": 2
 }
