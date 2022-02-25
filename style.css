@@ -21,7 +21,6 @@ img {
     border: 1px solid gainsboro;
     padding: 2em !important;
     box-shadow: 0 0px 10px rgba(0,0,0,0.1) !important;
-    background-color: #f8f9fa;
 }
 
 .col-7:first-child {
@@ -120,4 +119,13 @@ strike {
 .item-button:hover {
     text-decoration: none;
     color: gray;
+}
+
+
+.total {
+    color: white;
+    letter-spacing: .05em;
+    font-size: 70px;
+    text-align: center;
+    padding: 2em;
 }
